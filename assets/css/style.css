@@ -1,0 +1,79 @@
+/*
+ Estilos da página index.html
+*/
+
+body {
+    background-color: #DCDCDC;
+   }
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 30px;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color:black;
+}
+
+.padding-40{
+    padding: 40px;
+}
+
+.fonte-texto{
+    font-size: 30px;
+
+}
+
+.borda{
+    border: 1px;
+}
+
+.container table tr th{ 
+    border: 1px solid;
+}
+
+.mb-50{
+    margin-bottom: 50px;;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.container-2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex;
+}
+
+.margem-esquerda{
+    padding-right: 60px;
+}
+
+.margen-baixo{
+    padding-bottom: 30px;
+}
